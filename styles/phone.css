@@ -1,0 +1,464 @@
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 640px) {
+
+  	.menu{
+  		display: none;
+  	}
+
+  	.top-header-wrapper{
+  		font-size: 5vw;
+  		padding: : 0 2%;
+  		margin: 0;
+  		flex-direction: column;
+  	}
+
+  	.number{
+  		display: flex;
+  		color: rgb(131, 131, 131);
+  		width: 100%;
+  		background-color: white;
+		justify-content: center;
+  		height: 15vw;
+  		align-items: center;
+  	}
+
+  	.options {
+    width: 100%;
+    height: 15vw;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+	}
+
+	.currency, .search{
+		width: 15vw;
+		justify-content: center;
+	}
+
+	.currency{
+		width: 25vw
+	}
+
+	.currency select{
+		font-size: 5vw;
+	}
+
+	.account{
+		width: 60vw;
+		justify-content: center;
+	}
+	
+	.account-logo{
+		margin-right: 3vw;
+	}
+	.account img, .search img{
+		height: 5vw;
+		width: 5vw;
+	}
+
+	.bottom-header-wrapper{
+  		margin: 0 2%;
+  		flex-direction: column;
+  	}
+
+  	.logo{
+  		margin: 5vw 0;
+  	}
+
+  	.logo img{
+  		width: 40vw;
+  	}
+
+  	.menu-and-card{
+  		width: 100%
+  	}
+
+  	.card-field{
+  		width: 100%;
+  	}
+
+  	.your-card{
+  		display: none;
+  	}
+
+  	.basket{
+  		border: 1px solid rgb(214, 214, 214);
+  		height: 15vw;
+  	}
+
+  	.basket-logo {
+  	margin-left: 2vw;
+    align-items: center;
+    display: inline-flex;
+	}
+
+	.basket-logo img{
+		height: 8vw;
+		width: 8vw;
+	}
+
+	.basket-info{
+		font-size: 5vw;
+	}
+
+	.hidden-menu{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 4vw 2%;
+		height: 15vw;
+		margin-bottom: 0;
+		background-color: rgb(253, 146, 109);
+	}
+
+	.hidden-menu span{
+		font-family:  Arial;
+		color: white;
+		font-size: 5vw;
+		margin-left: 5vw;
+	}
+
+	.burger-menu{
+		margin-right: 5vw;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 7vw;
+		height: 6vw;
+	}
+
+	.burger-menu-line{
+		height: 1.5vw;
+		background-color: white;
+		border-radius: 1.25vw;
+	}
+
+	.slider, .circles{
+		display: none;
+	}
+
+	.stay-updated{
+		background-color: white;
+	}
+
+	.stay-updated-wrapper{
+		margin: 0 2%;
+		flex-direction: column;
+		height: auto;
+	}
+
+	.your-mail{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin-top: 4vw;
+	}
+
+	.your-mail span{
+		display: none;
+	}
+
+	.your-mail input {
+	background-color: rgb(237, 237, 237);
+    font-family: Arial;
+    font-size: 5vw;
+    width: 60%;
+    padding: 5vw 19vw 5vw 5vw;
+    border: none;
+	}
+
+	.your-mail button img {
+    height: 6vw;
+    width: 6vw;
+	}
+
+	.your-mail button {
+    border-bottom: 1vw solid rgb(221, 107, 68);
+    padding: 4.5vw;
+	}
+
+	.social-links {
+		justify-content: center;
+    	margin-top: 4vw;
+   		font-size: 4vw;
+    	height: 15vw;
+    	width: 100%;
+	}
+
+	.social-links span {
+    	margin-right: 5vw;
+	}
+
+	.facebook, .twitter, .pinterest{
+		width: 15vw;
+	}
+
+	.twitter{
+		background-position: -15.5vw 0;
+		background-color: rgb(237, 237, 237);
+	}
+
+	.pinterest{
+		background-position: -31vw 0;
+	}
+
+	.banners{
+		display: none;
+	}
+
+	.girls-menu {
+    	font-family: Arial;
+    	font-size: 5vw;
+   		margin: 0;
+    	display: flex;
+    	justify-content: space-between;
+	}
+
+	.other-categories{
+		display: none;
+	}
+
+	.girls-menu-switch{
+		display: none;
+	}
+
+	.girls-menu-categories{
+		margin-top: 4vw;
+		width: 100%;
+	}
+
+	.picked-category{
+		background-color: rgb(244, 132, 93);
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.picked-category-arrow{
+		display: block;
+		width: 0;
+		height: 0;
+		border-left: 1vw solid transparent;
+		border-right: 1vw solid transparent;
+		border-top: 1.5vw solid white;
+	}
+
+	.girls-clothes-catalog{
+		height: 86vw;
+	}
+
+	.girl{
+		height: 78vw;
+		width: 43vw;
+		margin: 5vw 0;
+	}
+
+	.load-more{
+		display: flex;
+	}
+
+	.capture{
+		font-size: 12px;
+		margin: 12px 0;
+		height: 14px;
+	}
+
+	.price{
+		font-size: 22px;
+		height: 24px;
+	}
+	
+	.girl button{
+		font-size: 15px;
+		padding: 10px;
+	}
+
+	.girl:hover {
+	height: 80vw;
+	margin: 3vw 0;
+	width: 45vw;
+}
+	
+	.shop-it{
+		height: 24vw;
+		width: 24vw;
+		border-radius: 12vw;
+	}
+
+	.bag-handle{
+		width: 3vw;
+	    height: 2vw;
+    	border: 2px solid white;
+    	border-bottom: none;
+	}
+
+	.bag {
+    border-bottom: 4vw solid white;
+    border-left: 1vw solid transparent;
+    border-right: 1vw solid transparent;
+    height: 0;
+    width: 5vw;
+	}
+
+	.sale {
+    height: 8vw;
+    width: 8vw;
+    font-size: 2vw;
+	}
+
+	.helper {
+    height: 8vw;
+    width: 8vw;
+	}
+
+	.shop-it-capture {
+    font-family: Arial;
+    margin-top: 10px;
+    font-size: 12px;
+    color: white;
+	}
+
+	.clearance{
+		margin: 4vw 0;
+	}
+
+	.sticker{
+		height: 25vw;
+		width: 25vw;
+	}
+
+	.line{
+		width: 35vw;
+	}
+
+	.girls-clearance{
+		margin: 0;
+		height: 92vw;
+	}
+
+	.lm2{
+		background-color: white;
+	}
+
+	.favourite-brands{
+		display: none;
+	}
+
+	.about{
+		display: none;
+	}
+
+	.payment-system{
+		display: none;
+	}
+
+	.footer-menu-wrapper{
+		display: none;
+	}
+
+	.footer-rights-policy{
+		height: 17vw;
+	}
+
+	.footer-rights-policy-wrapper{
+		margin: 0 4%;
+	}
+
+	.list span{
+		display: none;
+	}
+
+	.copyright{
+		text-align: right;
+	}
+
+	.copyright span{
+		font-size: 4vw;
+	}
+
+	.hidden-menu-content{
+		z-index: 10;
+		position: absolute;
+		width: 96vw;
+		display: none;
+		flex-direction: column;
+		margin: 0 2vw;
+	}
+
+	.phone{
+		position: static;
+	}
+
+	.whats-hidden-menu-content{
+		display: none;
+		flex-direction: column;
+	}
+
+	.hidden-menu-content-item{
+		cursor: pointer;
+		padding-left: 20px;
+		display: flex;
+		font-family: Arial;
+		font-size: 18px;
+		align-items: center;
+		height: 48px;
+		background-color: rgba(247, 247, 247, 0.9);
+
+	}
+
+	.whats-hidden-menu-content-item{
+		cursor: pointer;
+		padding-left: 20px;
+		display: flex;
+		font-family: Arial;
+		font-size: 18px;
+		align-items: center;
+		height: 48px;
+		background-color: rgba(247, 247, 247, 0.9);
+
+	}
+
+	.hidden-menu-content-item:hover{
+		background-color: rgba(237, 237, 237, 0.9);
+	}
+
+	.whats-hidden-menu-content-item:hover{
+		color: white;
+		background-color: rgb(253, 146, 109);
+	}
+
+		input[type=checkbox] {
+   		position: absolute;
+   		top: -9999px;
+   		left: -9999px;
+}
+
+	input[type=checkbox]:checked ~ .hidden-menu-content {
+   			display: flex;
+}  
+
+input[type=checkbox]:checked ~ .whats-hidden-menu-content {
+   			display: flex;
+}
+
+.currency .select{
+		font-size: 5vw;
+	}
+
+	.arrow{
+	display: block;
+	margin-left: 1.5vw;
+	width: 0;
+	height: 0;
+	border-left: 1.5vw solid transparent;
+	border-right: 1.5vw solid transparent;
+	border-top: 3vw solid black;
+}
+
+.us{
+	border-top: 3vw solid white;
+}
+
+}
